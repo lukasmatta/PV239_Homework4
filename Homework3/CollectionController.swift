@@ -45,7 +45,12 @@ class CollectionController: UIViewController, UICollectionViewDataSource, UIColl
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.item)
+        removeItem(at: indexPath)
+    }
+    
+    private func removeItem(at indexPath: IndexPath) {
+        items.remove(at: indexPath.item)
+        itemsCollectionView.deleteItems(at: [indexPath])
     }
     
 
