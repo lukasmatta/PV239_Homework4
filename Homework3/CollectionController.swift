@@ -26,7 +26,7 @@ class CollectionController: UIViewController, UICollectionViewDataSource, UIColl
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if
             segue.identifier == "losujSegue",
-            let addItemController = segue.destination as? ViewController
+            let addItemController = segue.destination as? DrawController
         {
             addItemController.itemsListDelegate = self
         }

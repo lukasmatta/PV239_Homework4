@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DrawController: UIViewController {
     weak var itemsListDelegate: ItemsListDelegate?
 
     override func viewDidLoad() {
