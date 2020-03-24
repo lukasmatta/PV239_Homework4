@@ -143,14 +143,24 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Uk3-zU-rtW">
+                                <rect key="frame" x="188.5" y="402.5" width="37" height="37"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="zNp-vs-1ad" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GdX-NM-Cia"/>
                             <constraint firstItem="zNp-vs-1ad" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KWj-vB-6VF"/>
+                            <constraint firstItem="Uk3-zU-rtW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cil-EW-fLR"/>
+                            <constraint firstItem="Uk3-zU-rtW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sbf-T0-vxI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="buttons" destination="zNp-vs-1ad" id="APh-yw-Wo5"/>
+                        <outlet property="loadingSpinner" destination="Uk3-zU-rtW" id="6Te-fF-GEs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
