@@ -21,19 +21,20 @@ class DrawController: UIViewController {
     }
     
     @IBAction func drawRed(_ sender: UIButton) {
-        let newItem = ColoredNumber(value: Int.random(in: 11...49), color: UIColor.systemRed)
-        itemsListDelegate?.add(item: newItem)
-        presentingViewController?.dismiss(animated: true, completion: nil)
+        drawNumberAndClose(from: 11, to: 49, color: UIColor.systemRed)
+
     }
     
     @IBAction func drawBlue(_ sender: UIButton) {
-        let newItem = ColoredNumber(value: Int.random(in: 11...49), color: UIColor.systemBlue)
-        itemsListDelegate?.add(item: newItem)
-        presentingViewController?.dismiss(animated: true, completion: nil)
+        drawNumberAndClose(from: 1, to: 49, color: UIColor.systemBlue)
     }
     
     @IBAction func drawGreen(_ sender: UIButton) {
-        let newItem = ColoredNumber(value: Int.random(in: 1...50), color: UIColor.systemGreen)
+        drawNumberAndClose(from: 1, to: 50, color: UIColor.systemGreen)
+    }
+    
+    private func drawNumberAndClose(from: Int, to: Int, color: UIColor) {
+        let newItem = ColoredNumber(value: Int.random(in: from...to), color: color)
         itemsListDelegate?.add(item: newItem)
         presentingViewController?.dismiss(animated: true, completion: nil)
     }
