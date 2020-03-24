@@ -20,19 +20,19 @@ class ViewController: UIViewController {
         presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func losujCervene(_ sender: UIButton) {
+    @IBAction func drawRed(_ sender: UIButton) {
         let newItem = ColoredNumber(value: Int.random(in: 11...49), color: UIColor.systemRed)
         itemsListDelegate?.add(item: newItem)
         presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func losujModre(_ sender: UIButton) {
+    @IBAction func drawBlue(_ sender: UIButton) {
         let newItem = ColoredNumber(value: Int.random(in: 11...49), color: UIColor.systemBlue)
         itemsListDelegate?.add(item: newItem)
         presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func losujZelene(_ sender: UIButton) {
+    @IBAction func drawGreen(_ sender: UIButton) {
         let newItem = ColoredNumber(value: Int.random(in: 1...50), color: UIColor.systemGreen)
         itemsListDelegate?.add(item: newItem)
         presentingViewController?.dismiss(animated: true, completion: nil)

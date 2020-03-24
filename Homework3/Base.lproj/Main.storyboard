@@ -60,7 +60,7 @@
                         <viewLayoutGuide key="safeArea" id="Ekt-nL-vuh"/>
                     </view>
                     <navigationItem key="navigationItem" id="cr3-87-TJI">
-                        <barButtonItem key="rightBarButtonItem" title="Losuj" id="x4t-0b-b1X">
+                        <barButtonItem key="rightBarButtonItem" title="Draw" id="x4t-0b-b1X">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="popoverPresentation" identifier="losujSegue" popoverAnchorBarButtonItem="x4t-0b-b1X" id="LuI-br-F9U">
                                     <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
@@ -110,7 +110,7 @@
                                             <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="losujCervene:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1u-xo-pWg"/>
+                                            <action selector="drawRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kQR-7E-eUA"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jX-Rq-324">
@@ -118,7 +118,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Losuj modre"/>
                                         <connections>
-                                            <action selector="losujModre:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8w-re-M7Z"/>
+                                            <action selector="drawBlue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UUp-Jd-E3a"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSp-GM-MSK">
@@ -128,7 +128,7 @@
                                             <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="losujZelene:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QDw-OD-U8y"/>
+                                            <action selector="drawGreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iCA-ge-fBf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsr-GS-aRS">
