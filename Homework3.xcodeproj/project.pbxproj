@@ -15,7 +15,7 @@
 		80C18F7E2422578300E00EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C18F7C2422578300E00EE1 /* LaunchScreen.storyboard */; };
 		80C18F8C2422604E00E00EE1 /* CollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C18F8B2422604E00E00EE1 /* CollectionController.swift */; };
 		80C18F8E2422617B00E00EE1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C18F8D2422617B00E00EE1 /* CollectionViewCell.swift */; };
-		80C18F902422700C00E00EE1 /* coloredNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C18F8F2422700C00E00EE1 /* coloredNumber.swift */; };
+		80C18F902422700C00E00EE1 /* ColoredNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C18F8F2422700C00E00EE1 /* ColoredNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		80C18F7F2422578300E00EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80C18F8B2422604E00E00EE1 /* CollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionController.swift; sourceTree = "<group>"; };
 		80C18F8D2422617B00E00EE1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		80C18F8F2422700C00E00EE1 /* coloredNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coloredNumber.swift; sourceTree = "<group>"; };
+		80C18F8F2422700C00E00EE1 /* ColoredNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 				80C18F7A2422578300E00EE1 /* Assets.xcassets */,
 				80C18F7C2422578300E00EE1 /* LaunchScreen.storyboard */,
 				80C18F7F2422578300E00EE1 /* Info.plist */,
-				80C18F8F2422700C00E00EE1 /* coloredNumber.swift */,
+				80C18F8F2422700C00E00EE1 /* ColoredNumber.swift */,
 			);
 			path = Homework3;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 				80C18F8C2422604E00E00EE1 /* CollectionController.swift in Sources */,
 				80C18F722422577F00E00EE1 /* AppDelegate.swift in Sources */,
 				80C18F742422577F00E00EE1 /* SceneDelegate.swift in Sources */,
-				80C18F902422700C00E00EE1 /* coloredNumber.swift in Sources */,
+				80C18F902422700C00E00EE1 /* ColoredNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
